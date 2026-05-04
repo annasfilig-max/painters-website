@@ -1,272 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Gallery | [Your Company Name] — Painting Services in [City]</title>
-  <meta name="description" content="Browse [Your Company Name]'s project gallery — real photos from residential and commercial painting jobs across [Service Region]. See our quality firsthand.">
-  <meta property="og:title" content="Project Gallery | [Your Company Name]">
-  <meta property="og:description" content="Real photos from painting projects across [Service Region]. See the quality of our work before you call.">
-  <meta property="og:image" content="[https://yourdomain.com]/assets/images/hero.png">
-  <meta property="og:url" content="https://yourdomain.com/gallery.html">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://yourdomain.com/gallery.html">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config = { corePlugins: { preflight: false } }</script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://yourdomain.com/"},
-      {"@type":"ListItem","position":2,"name":"Gallery","item":"https://yourdomain.com/gallery.html"}
-    ]
-  }
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | [Your Company Name] — Remodeling in [City, State ZIP]</title>
+<meta name="description" content="A look at recent projects from [Your Company Name]. Interiors, baths, and whole-home remodels across homes in [Service Region].">
+<link rel="canonical" href="[https://yourdomain.com]/gallery.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gallery | [Your Company Name]">
+<meta property="og:description" content="Recent Remodeling projects from [Your Company Name].">
+<meta property="og:url" content="[https://yourdomain.com]/gallery.html">
+<meta property="og:image" content="https://yourdomain.com/assets/images/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { corePlugins: { preflight: false } }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/css/styles.css?v=22">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"[https://yourdomain.com]/index.html"},{"@type":"ListItem","position":2,"name":"Gallery","item":"[https://yourdomain.com]/gallery.html"}]}
+</script>
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+<!-- ================= JT MARKETING PROMO BANNER ================= -->
+<div id="jtm-promo-banner" role="note" aria-label="Preview by JT Marketing">
+  <span class="jtm-promo-inner">
+    <svg class="jtm-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.4 20 12 16.7 6.6 20 8 13.4 3 9l6.4-.7L12 2z"/></svg>
+    <span class="jtm-promo-text">This site could be yours.</span>
+    <span class="jtm-promo-sep" aria-hidden="true"></span>
+    <span class="jtm-promo-credit">Built by <b>JT Marketing</b></span>
+  </span>
+  <button type="button" class="jtm-close" aria-label="Dismiss" onclick="this.parentElement.style.display='none'">&times;</button>
+</div>
 
-  <!-- HEADER -->
-  <header class="site-header" role="banner">
-    <div class="container">
-      <div class="header-inner">
-        <a href="index.html" class="logo" aria-label="[Your Company Name] — Home">
-          <span class="logo-name">[Your Company Name]</span>
-          <span class="logo-tagline">Painting · Prep · Color Consultation</span>
-        </a>
-        <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="index.html" data-nav-link>Home</a>
-          <a href="about.html" data-nav-link>About</a>
-          <a href="services.html" data-nav-link>Services</a>
-          <a href="service-areas.html" data-nav-link>Service Areas</a>
-          <a href="gallery.html" data-nav-link aria-current="page">Gallery</a>
-          <a href="testimonials.html" data-nav-link>Reviews</a>
-          <a href="faq.html" data-nav-link>FAQ</a>
-          <a href="blog.html" data-nav-link>Blog</a>
-          <a href="contact.html" data-nav-link>Contact</a>
-        </nav>
-        <div class="header-cta">
-          <a href="tel:[Phone Number]" class="header-phone">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            [Phone Number]
-          </a>
-          <a href="quote.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
-        </div>
-        <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
-    </div>
-    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
-      <a href="tel:[Phone Number]" class="mobile-menu-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>[Phone Number]</a>
-      <a href="index.html" data-nav-link>Home</a>
-      <a href="about.html" data-nav-link>About</a>
-      <a href="services.html" data-nav-link>Services</a>
-      <a href="service-areas.html" data-nav-link>Service Areas</a>
-      <a href="gallery.html" data-nav-link aria-current="page">Gallery</a>
-      <a href="testimonials.html" data-nav-link>Reviews</a>
-      <a href="faq.html" data-nav-link>FAQ</a>
-      <a href="blog.html" data-nav-link>Blog</a>
-      <a href="contact.html" data-nav-link>Contact</a>
-      <div class="mobile-menu-cta"><a href="quote.html" class="btn btn-primary">Get a Free Quote</a></div>
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/home" class="logo" aria-label="[Your Company Name] home">
+      <span class="logo-name">[Your Company Name]</span>
+      <span class="logo-tag">Interior &amp; Exterior Painting</span>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <ul><li><a href="/home">Home</a></li><li><a href="/about">About</a></li><li><a href="/services">Services</a></li><li><a href="/service-areas">Service Areas</a></li><li><a href="/gallery" aria-current="page">Gallery</a></li><li><a href="/testimonials">Reviews</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul>
     </nav>
-  </header>
+    <div class="header-cta">
+      <a href="tel:[Phone Number]" class="header-phone">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        [Phone Number]
+      </a>
+      <a href="/quote" class="btn btn-primary">Free Quote</a>
+    </div>
+    <button class="hamburger" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
 
-  <main id="main-content">
+<!-- ================= MOBILE MENU ================= -->
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+  <div class="mobile-menu-head">
+    <span class="logo-name">[Your Company Name]</span>
+    <button class="hamburger" data-menu-close aria-label="Close menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav aria-label="Mobile primary"><ul><li><a href="/home">Home</a></li><li><a href="/about">About</a></li><li><a href="/services">Services</a></li><li><a href="/service-areas">Service Areas</a></li><li><a href="/gallery">Gallery</a></li><li><a href="/testimonials">Reviews</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul></nav>
+  <div class="mobile-menu-footer">
+    <a href="tel:[Phone Number]" class="btn btn-outline-white">Call [Phone Number]</a>
+    <a href="/quote" class="btn btn-primary">Free Quote</a>
+  </div>
+</div>
 
-    <!-- PAGE HERO -->
-    <section class="page-hero" aria-label="Gallery page header">
-      <div class="container">
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Home</a><span aria-hidden="true">›</span>
-          <span aria-current="page">Gallery</span>
-        </nav>
-        <h1>Our Work</h1>
-        <p>Every photo below is a real project — replace these placeholders with your own before and after shots.</p>
-      </div>
-    </section>
+<main id="main">
 
-    <!-- GALLERY -->
-    <section aria-labelledby="gallery-heading">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">Project Portfolio</span>
-          <h2 id="gallery-heading">Browse Our Recent Projects</h2>
-          <p>Click any image to view it full size. Use the filters to browse by service type.</p>
-        </div>
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/home">Home</a> &nbsp;/&nbsp; Gallery</div>
+    <h1>The<br><em style="color:var(--orange);font-style:normal;">Work.</em></h1>
+    <p style="color:rgba(255,255,255,0.78);max-width:580px;margin:1rem 0 0;font-size:1.0625rem;">Recent installs, repairs, and upgrades from the crew. The kind of work that doesn't need a filter.</p>
+  </div>
+</section>
 
-        <!-- Filter Tabs -->
-        <div class="gallery-filters" role="group" aria-label="Filter gallery by service type">
-          <button class="filter-btn active" data-filter="all">All Projects</button>
-          <button class="filter-btn" data-filter="service-one">Service One</button>
-          <button class="filter-btn" data-filter="service-two">Service Two</button>
-          <button class="filter-btn" data-filter="service-three">Service Three</button>
-        </div>
-
-        <!-- Masonry Grid -->
-        <div class="gallery-grid" role="list" aria-label="Project photo gallery">
-          <div class="gallery-item" data-category="service-one" role="listitem">
-            <img src="assets/images/gallery-1.png" alt="Freshly painted interior living room" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-two" role="listitem">
-            <img src="assets/images/gallery-2.png" alt="Newly painted home exterior with clean trim" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-three" role="listitem">
-            <img src="assets/images/gallery-3.png" alt="Commercial office interior freshly painted" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-one" role="listitem">
-            <img src="assets/images/gallery-4.png" alt="Deep-color accent wall in dining room" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-two" role="listitem">
-            <img src="assets/images/gallery-5.png" alt="Exterior fence and trim painting" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-one" role="listitem">
-            <img src="assets/images/gallery-6.png" alt="Kitchen cabinet refinishing project" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-three" role="listitem">
-            <img src="assets/images/gallery-7.png" alt="Retail storefront exterior painting" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-two" role="listitem">
-            <img src="assets/images/gallery-8.png" alt="Two-story home exterior painted in neutral tones" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-one" role="listitem">
-            <img src="assets/images/gallery-9.png" alt="Master bedroom freshly painted with new trim" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-three" role="listitem">
-            <img src="assets/images/gallery-10.png" alt="Large commercial warehouse interior coating" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-two" role="listitem">
-            <img src="assets/images/gallery-11.png" alt="Victorian-style home exterior with detailed trim" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-          <div class="gallery-item" data-category="service-one" role="listitem">
-            <img src="assets/images/gallery-12.png" alt="Open-plan living area painted in warm modern tones" loading="lazy">
-            <div class="gallery-overlay" aria-hidden="true">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA BAND -->
-    <section class="cta-band" aria-labelledby="cta-gallery-heading">
-      <div class="container" style="position:relative;z-index:1;">
-        <span class="eyebrow" style="color:var(--color-accent);">Like What You See?</span>
-        <h2 id="cta-gallery-heading">Let's Create Results Like These for Your Property</h2>
-        <div class="cta-divider"></div>
-        <p>A free estimate costs nothing. We'll visit your property, assess the scope, and give you a clear written quote — no pressure, no obligation.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:.875rem;justify-content:center;">
-          <a href="quote.html" class="btn btn-primary btn-lg">Get a Free Quote</a>
-          <a href="contact.html" class="btn btn-white-outline btn-lg">Contact Us</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- LIGHTBOX -->
-  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" aria-hidden="true">
-    <div class="lightbox-inner">
-      <button class="lightbox-btn" id="lightbox-prev" aria-label="Previous image">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
-      </button>
-      <div style="position:relative;">
-        <button class="lightbox-close" id="lightbox-close" aria-label="Close image viewer">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-        </button>
-        <img id="lightbox-img" src="" alt="" style="max-width:80vw;max-height:85vh;border-radius:.5rem;">
-      </div>
-      <button class="lightbox-btn" id="lightbox-next" aria-label="Next image">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
-      </button>
+<section class="section">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">01 / Recent Jobs</span>
+      <h2>Real Work,<br>Real Homes.</h2>
+      <span class="meta">Tap Any Photo</span>
+    </div>
+    <div class="gallery-filters" role="tablist" aria-label="Gallery category filters">
+      <button class="active" role="tab">All</button>
+      <button role="tab">Interiors</button>
+      <button role="tab">Baths</button>
+      <button role="tab">Cabinets</button>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-1.png" alt="Interior before and after — full remodel"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-2.png" alt="Clean tile line-up along shower wall"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-3.png" alt="Custom cabinetry install with labeled hardware"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-4.png" alt="Modern primary bath with floating vanity"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-5.png" alt="Designer reviewing tile selection on site"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-6.png" alt="Crew loading materials at job site"></div>
+      <div class="gallery-item tall"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-7.png" alt="Close-up of installer hands on quartz template"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-8.png" alt="Completed kitchen island with tools on site"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-9.png" alt="Materials selection binder and project plans"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-10.png" alt="Designer measuring built-in shelving"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-11.png" alt="Fleet of Nano Banana Remodeling service vans in neighborhood"></div>
+      <div class="gallery-item"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/gallery-12.png" alt="Project trucks heading to a job site"></div>
     </div>
   </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <div class="footer-logo-name">[Your Company Name]</div>
-          <div class="footer-logo-tagline">Painting · Prep · Color Consultation</div>
-          <p class="footer-desc">Delivering quality painting services throughout [Service Region] since [Year Founded]. Locally owned, locally trusted.</p>
-          <p class="footer-license">Licensed &amp; Insured · License #[License #]</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="service-areas.html">Service Areas</a><a href="gallery.html">Gallery</a><a href="testimonials.html">Reviews</a><a href="faq.html">FAQ</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a><a href="quote.html">Free Quote</a>
-          </nav>
-        </div>
-        <div class="footer-col">
-          <h4>Our Services</h4>
-          <nav class="footer-links" aria-label="Services navigation">
-            <a href="services.html#service-one">Service One</a><a href="services.html#service-two">Service Two</a><a href="services.html#service-three">Service Three</a><a href="services.html#service-four">Service Four</a><a href="services.html#service-five">Service Five</a><a href="services.html#service-six">Service Six</a>
-          </nav>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:[Phone Number]">[Phone Number]</a></div>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:[Email]">[Email]</a></div>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>[Street Address], [City, State ZIP]</span></div>
-          <p class="footer-hours">Mon–Sat 7am–6pm · Sun by appointment</p>
-        </div>
+<div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-label="Gallery image viewer">
+  <button class="lightbox-close" data-lb-close aria-label="Close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <button class="lightbox-nav prev" data-lb-prev aria-label="Previous image"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+  <img src="" alt="">
+  <button class="lightbox-nav next" data-lb-next aria-label="Next image"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+</div>
+
+<section class="cta-band">
+  <div class="container">
+    <div>
+      <span class="eyebrow" style="color:var(--orange);">02 / Yours Could Be Next</span>
+      <h2>Want Yours To<br>Look Like This?</h2>
+      <p>Book a free in-home estimate and we'll show you what's possible &mdash; no pressure, no upsell.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.875rem;">
+      <a href="/quote" class="btn btn-primary btn-lg">Get a Free Quote</a>
+      <a href="tel:[Phone Number]" class="btn btn-outline-white btn-lg">Call [Phone Number]</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo-name">[Your Company Name]</div>
+        <div class="logo-tag">Interior &amp; Exterior Painting</div>
+        <p style="margin-top:1rem;color:rgba(255,255,255,0.7);max-width:36ch;">Family-owned remodeling company serving [Service Region] since [Year Founded]. Honest work, fair pricing, and a guarantee behind every job.</p>
+        <p style="font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-top:1rem;">Lic #[License #] &middot; Insured &middot; Bonded</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/service-areas">Service Areas</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/testimonials">Reviews</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#interior">Interior Remodels</a></li>
+          <li><a href="/services#exterior">Exterior Painting</a></li>
+          <li><a href="/services#cabinet-paint">Cabinet Refinishing</a></li>
+          <li><a href="/services#drywall">Drywall &amp; Patching &amp; Surfaces</a></li>
+          <li><a href="/services#trim">Drywall &amp; Stone</a></li>
+          <li><a href="/services#color">Color Consultation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach Us</h4>
+        <ul>
+          <li><a href="tel:[Phone Number]" style="font-family:var(--font-heading);font-weight:700;color:#fff;font-size:1.125rem;">[Phone Number]</a></li>
+          <li><a href="mailto:[Email]">[Email]</a></li>
+          <li>[Street Address]<br>[City, State ZIP]</li>
+          <li style="margin-top:0.75rem;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.6);">Mon&ndash;Fri 7a&ndash;7p &middot; Sat 8a&ndash;4p<br>15-Yr Workmanship Dispatch</li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="container">
-        <div class="footer-bottom-inner">
-          <div class="footer-social" aria-label="Social media links">
-            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-            <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-            <a href="#" aria-label="Google Business"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></a>
-          </div>
-          <p class="footer-legal">&copy; [Year] [Your Company Name]. All rights reserved. &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Use</a></p>
-        </div>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 11h-10v2.5h5.7c-.5 2.8-2.8 4.5-5.7 4.5-3.4 0-6.2-2.8-6.2-6.2s2.8-6.2 6.2-6.2c1.5 0 2.9.6 4 1.5l1.9-1.9C16 3.6 14.1 3 12 3 7 3 3 7 3 12s4 9 9 9c5.2 0 8.7-3.6 8.7-8.7 0-.4 0-.9-.1-1.3z"/></svg></a>
       </div>
+      <div>&copy; <span data-year>2026</span> [Your Company Name] &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></div>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/js/main.js?v=22" defer></script>
 </body>
 </html>

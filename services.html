@@ -1,383 +1,418 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services | [Your Company Name] — Painting Services in [City]</title>
-  <meta name="description" content="Explore the full range of painting services offered by [Your Company Name] in [Service Region]. Residential, commercial, specialty coatings, and more. Free estimates.">
-  <meta property="og:title" content="Our Services | [Your Company Name]">
-  <meta property="og:description" content="Full-range painting services in [Service Region] — residential, commercial, specialty, and maintenance. Free estimates available.">
-  <meta property="og:image" content="[https://yourdomain.com]/assets/images/hero.png">
-  <meta property="og:url" content="https://yourdomain.com/services.html">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://yourdomain.com/services.html">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>tailwind.config = { corePlugins: { preflight: false } }</script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Home","item":"https://yourdomain.com/"},
-      {"@type":"ListItem","position":2,"name":"Services","item":"https://yourdomain.com/services.html"}
-    ]
-  }
-  </script>
-  <script type="application/ld+json">
-  [
-    {"@context":"https://schema.org","@type":"Service","name":"Service One","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"Professional Service One painting for residential and commercial properties."},
-    {"@context":"https://schema.org","@type":"Service","name":"Service Two","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"Expert Service Two painting with weather-resistant coatings."},
-    {"@context":"https://schema.org","@type":"Service","name":"Service Three","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"Commercial painting services for businesses of all sizes."},
-    {"@context":"https://schema.org","@type":"Service","name":"Service Four","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"Specialty and decorative coatings for unique finishes."},
-    {"@context":"https://schema.org","@type":"Service","name":"Service Five","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"New construction painting for builders and developers."},
-    {"@context":"https://schema.org","@type":"Service","name":"Service Six","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]","description":"Ongoing maintenance painting programs for property owners."}
-  ]
-  </script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services | [Your Company Name] — Remodeling in [City, State ZIP]</title>
+<meta name="description" content="Full-service Remodeling work for homes across [Service Region]. Six core services from [Your Company Name] — upfront pricing and a workmanship guarantee on every job.">
+<link rel="canonical" href="[https://yourdomain.com]/services.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Services | [Your Company Name]">
+<meta property="og:description" content="Six core Remodeling services with upfront pricing and workmanship guaranteed.">
+<meta property="og:url" content="[https://yourdomain.com]/services.html">
+<meta property="og:image" content="https://yourdomain.com/assets/images/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/favicon.svg">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config = { corePlugins: { preflight: false } }</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/css/styles.css?v=22">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+  {"@type":"ListItem","position":1,"name":"Home","item":"[https://yourdomain.com]/index.html"},
+  {"@type":"ListItem","position":2,"name":"Services","item":"[https://yourdomain.com]/services.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+  {"@type":"Service","serviceType":"Service One","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"},
+  {"@type":"Service","serviceType":"Service Two","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"},
+  {"@type":"Service","serviceType":"Service Three","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"},
+  {"@type":"Service","serviceType":"Service Four","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"},
+  {"@type":"Service","serviceType":"Service Five","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"},
+  {"@type":"Service","serviceType":"Service Six","provider":{"@type":"LocalBusiness","name":"[Your Company Name]"},"areaServed":"[Service Region]"}
+]}
+</script>
 </head>
 <body>
-  <a href="#main-content" class="skip-link">Skip to main content</a>
+<!-- ================= JT MARKETING PROMO BANNER ================= -->
+<div id="jtm-promo-banner" role="note" aria-label="Preview by JT Marketing">
+  <span class="jtm-promo-inner">
+    <svg class="jtm-star" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.6 6.3L21 9l-5 4.4L17.4 20 12 16.7 6.6 20 8 13.4 3 9l6.4-.7L12 2z"/></svg>
+    <span class="jtm-promo-text">This site could be yours.</span>
+    <span class="jtm-promo-sep" aria-hidden="true"></span>
+    <span class="jtm-promo-credit">Built by <b>JT Marketing</b></span>
+  </span>
+  <button type="button" class="jtm-close" aria-label="Dismiss" onclick="this.parentElement.style.display='none'">&times;</button>
+</div>
 
-  <!-- HEADER -->
-  <header class="site-header" role="banner">
-    <div class="container">
-      <div class="header-inner">
-        <a href="index.html" class="logo" aria-label="[Your Company Name] — Home">
-          <span class="logo-name">[Your Company Name]</span>
-          <span class="logo-tagline">Painting · Prep · Color Consultation</span>
-        </a>
-        <nav class="desktop-nav" aria-label="Main navigation">
-          <a href="index.html" data-nav-link>Home</a>
-          <a href="about.html" data-nav-link>About</a>
-          <a href="services.html" data-nav-link aria-current="page">Services</a>
-          <a href="service-areas.html" data-nav-link>Service Areas</a>
-          <a href="gallery.html" data-nav-link>Gallery</a>
-          <a href="testimonials.html" data-nav-link>Reviews</a>
-          <a href="faq.html" data-nav-link>FAQ</a>
-          <a href="blog.html" data-nav-link>Blog</a>
-          <a href="contact.html" data-nav-link>Contact</a>
-        </nav>
-        <div class="header-cta">
-          <a href="tel:[Phone Number]" class="header-phone">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            [Phone Number]
-          </a>
-          <a href="quote.html" class="btn btn-primary btn-sm">Get a Free Quote</a>
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/home" class="logo" aria-label="[Your Company Name] home">
+      <span class="logo-name">[Your Company Name]</span>
+      <span class="logo-tag">Interior &amp; Exterior Painting</span>
+    </a>
+    <nav class="nav-main" aria-label="Primary">
+      <ul><li><a href="/home">Home</a></li><li><a href="/about">About</a></li><li><a href="/services" aria-current="page">Services</a></li><li><a href="/service-areas">Service Areas</a></li><li><a href="/gallery">Gallery</a></li><li><a href="/testimonials">Reviews</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:[Phone Number]" class="header-phone">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        [Phone Number]
+      </a>
+      <a href="/quote" class="btn btn-primary">Free Quote</a>
+    </div>
+    <button class="hamburger" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ================= MOBILE MENU ================= -->
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu aria-hidden="true">
+  <div class="mobile-menu-head">
+    <span class="logo-name">[Your Company Name]</span>
+    <button class="hamburger" data-menu-close aria-label="Close menu">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav aria-label="Mobile primary"><ul><li><a href="/home">Home</a></li><li><a href="/about">About</a></li><li><a href="/services">Services</a></li><li><a href="/service-areas">Service Areas</a></li><li><a href="/gallery">Gallery</a></li><li><a href="/testimonials">Reviews</a></li><li><a href="/faq">FAQ</a></li><li><a href="/contact">Contact</a></li></ul></nav>
+  <div class="mobile-menu-footer">
+    <a href="tel:[Phone Number]" class="btn btn-outline-white">Call [Phone Number]</a>
+    <a href="/quote" class="btn btn-primary">Free Quote</a>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/home">Home</a> &nbsp;/&nbsp; Services</div>
+    <h1>Services<br><em style="color:var(--orange);font-style:normal;">Done Right.</em></h1>
+    <p style="color:rgba(255,255,255,0.78);max-width:580px;margin:1rem 0 0;font-size:1.0625rem;">Six core services. One standard. Flat-rate pricing, clean work, and a 15-year workmanship guarantee on every job.</p>
+  </div>
+</section>
+
+<!-- Quick service nav grid (photo cards, anchor links) -->
+<section class="section" style="padding:3rem 0;">
+  <div class="container">
+    <div class="grid-3" style="gap:0.75rem;">
+      <a href="#kitchen" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-1.png');"></div>
+        <span class="svc-num">01 / Interior</span>
+        <h3 style="font-size:1.25rem;">Interior Remodels</h3>
+      </a>
+      <a href="#bath" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-2.png');"></div>
+        <span class="svc-num">02 / Bath</span>
+        <h3 style="font-size:1.25rem;">Exterior Painting</h3>
+      </a>
+      <a href="#cabinets" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-3.png');"></div>
+        <span class="svc-num">03 / Cabinets</span>
+        <h3 style="font-size:1.25rem;">Cabinet Refinishing</h3>
+      </a>
+      <a href="#counters" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-4.png');"></div>
+        <span class="svc-num">04 / Counters</span>
+        <h3 style="font-size:1.25rem;">Drywall &amp; Patching &amp; Surfaces</h3>
+      </a>
+      <a href="#tile" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-5.png');"></div>
+        <span class="svc-num">05 / Tile</span>
+        <h3 style="font-size:1.25rem;">Drywall &amp; Stone</h3>
+      </a>
+      <a href="#design" class="svc-card" style="aspect-ratio:5/3;">
+        <div class="svc-img" style="background-image:url('https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-6.png');"></div>
+        <span class="svc-num">06 / Design</span>
+        <h3 style="font-size:1.25rem;">Color Consultation</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICE 01 — KITCHEN REMODELS ================= -->
+<section id="ac-repair" class="section section-alt">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">01 / Interior</span>
+      <h2>Interior Remodels —<br>Same-Day, Every Brand.</h2>
+      <span class="meta">Design &middot; Demo &middot; Build</span>
+    </div>
+    <div class="grid-2">
+      <div><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-1.png" alt="Designer reviewing kitchen layout with homeowner"></div>
+      <div>
+        <p class="lead">When the AC quits, you don't want a sales pitch — you want it cold again. We diagnose every brand, carry common parts on the truck, and most repairs are done the same visit.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">What's Included</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Layout planning, demo, framing &amp; finishing</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Custom cabinetry, counters &amp; lighting</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Backsplash, tile floors, hardwood &amp; LVP</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Honest scope-vs-budget recommendations</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Schedule a Visit</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
         </div>
-        <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open navigation menu">
-          <span></span><span></span><span></span>
-        </button>
       </div>
     </div>
-    <nav id="mobile-menu" class="mobile-menu" aria-label="Mobile navigation">
-      <a href="tel:[Phone Number]" class="mobile-menu-phone"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>[Phone Number]</a>
-      <a href="index.html" data-nav-link>Home</a>
-      <a href="about.html" data-nav-link>About</a>
-      <a href="services.html" data-nav-link aria-current="page">Services</a>
-      <a href="service-areas.html" data-nav-link>Service Areas</a>
-      <a href="gallery.html" data-nav-link>Gallery</a>
-      <a href="testimonials.html" data-nav-link>Reviews</a>
-      <a href="faq.html" data-nav-link>FAQ</a>
-      <a href="blog.html" data-nav-link>Blog</a>
-      <a href="contact.html" data-nav-link>Contact</a>
-      <div class="mobile-menu-cta"><a href="quote.html" class="btn btn-primary">Get a Free Quote</a></div>
-    </nav>
-  </header>
+  </div>
+</section>
 
-  <main id="main-content">
-
-    <!-- PAGE HERO -->
-    <section class="page-hero" aria-label="Services page header">
-      <div class="container">
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Home</a><span aria-hidden="true">›</span>
-          <span aria-current="page">Services</span>
-        </nav>
-        <h1>Our Services</h1>
-        <p>Comprehensive painting solutions for residential and commercial properties throughout [Service Region].</p>
-      </div>
-    </section>
-
-    <!-- INTRO -->
-    <section aria-labelledby="services-intro-heading">
-      <div class="container" style="max-width:860px;margin:0 auto;">
-        <h2 id="services-intro-heading" class="text-center" style="margin-bottom:1.25rem;">Everything We Offer</h2>
-        <p style="color:var(--color-text-muted);line-height:1.8;text-align:center;margin-bottom:1rem;">
-          Every service we provide starts with the same commitment: thorough preparation, premium materials, and workmanship that holds up over time. Whether you need a single room refreshed or a full commercial facility repainted, our process doesn't change.
-        </p>
-        <p style="color:var(--color-text-muted);line-height:1.8;text-align:center;">
-          Browse the services below or <a href="contact.html" style="color:var(--color-accent);font-weight:600;">contact us</a> if you have a project that doesn't fit neatly into a category — we're happy to discuss any painting-related need.
-        </p>
-      </div>
-    </section>
-
-    <!-- SERVICE SECTIONS -->
-    <section style="padding-top:0;" aria-label="Detailed service descriptions">
-      <div class="container">
-
-        <!-- Service One -->
-        <div class="service-section" id="service-one">
-          <div class="service-text">
-            <span class="eyebrow">Service One</span>
-            <h2>Service One</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              Whether you're refreshing a single room or transforming your entire home, our Service One team delivers consistently excellent results. We protect your furniture and floors, prepare every surface properly, and apply coatings that look beautiful and last.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              Our estimators take time to understand your vision — color preferences, finish levels, and any specific concerns — so the finished result reflects your taste, not just a standard formula.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>Full surface preparation and patching</li>
-                <li>Premium primer application where needed</li>
-                <li>Two coats of finish paint as standard</li>
-                <li>Daily cleanup and final site restoration</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-          <div class="service-img">
-            <img src="assets/images/service-1.png" alt="Painting service one project example" loading="lazy">
-          </div>
-        </div>
-
-        <!-- Service Two -->
-        <div class="service-section reverse" id="service-two">
-          <div class="service-img">
-            <img src="assets/images/service-2.png" alt="Painting service two project example" loading="lazy">
-          </div>
-          <div class="service-text">
-            <span class="eyebrow">Service Two</span>
-            <h2>Service Two</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              The right exterior coating does more than improve curb appeal — it protects your biggest investment from moisture, UV damage, and the wear of seasonal temperature changes. We use weather-resistant products rated for your specific climate conditions.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              All exterior work starts with a thorough inspection and pressure-wash. We repair damaged surfaces, apply appropriate primers, and finish with coatings built to last. Clean, sharp lines every time.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>Pressure washing and surface cleaning</li>
-                <li>Caulking, scraping, and surface repairs</li>
-                <li>Climate-appropriate primer and finish</li>
-                <li>Trim, fascia, and accent color application</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-        </div>
-
-        <!-- Service Three -->
-        <div class="service-section" id="service-three">
-          <div class="service-text">
-            <span class="eyebrow">Service Three</span>
-            <h2>Service Three</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              Commercial properties have unique requirements — scheduling around business hours, coordinating with property managers, meeting strict deadlines, and maintaining consistent branding across multiple surfaces. We've done it all.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              Our commercial teams are equipped to handle offices, retail spaces, industrial facilities, and multi-unit residential properties efficiently and with minimal disruption to your operations.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>After-hours and weekend scheduling available</li>
-                <li>Low-VOC products for occupied spaces</li>
-                <li>Dedicated project manager for every job</li>
-                <li>Volume pricing for multi-location clients</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-          <div class="service-img">
-            <img src="assets/images/service-3.png" alt="Painting service three project example" loading="lazy">
-          </div>
-        </div>
-
-        <!-- Service Four -->
-        <div class="service-section reverse" id="service-four">
-          <div class="service-img">
-            <img src="assets/images/service-4.png" alt="Painting service four project example" loading="lazy">
-          </div>
-          <div class="service-text">
-            <span class="eyebrow">Service Four</span>
-            <h2>Service Four</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              When a standard painted finish isn't enough, our specialty coating service opens up a wide range of options. Faux finishes, textured applications, metallic effects, and other decorative techniques can transform any surface into a design statement.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              We work closely with homeowners, designers, and architects to understand the desired aesthetic and apply the right technique for a lasting, professional result.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>Design consultation and sample mockups</li>
-                <li>Custom color matching available</li>
-                <li>Multiple specialty finish techniques</li>
-                <li>Protective topcoat application</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-        </div>
-
-        <!-- Service Five -->
-        <div class="service-section" id="service-five">
-          <div class="service-text">
-            <span class="eyebrow">Service Five</span>
-            <h2>Service Five</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              New construction projects run on tight timelines, and delays cost money. Our new construction painting crews are experienced in coordinating with general contractors, meeting inspection deadlines, and delivering flawless finishes under schedule pressure.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              We handle everything from raw drywall primer coats through final finish application, working efficiently across all phases of construction to keep your project on track.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>Pre-drywall and finish coat scheduling</li>
-                <li>Builder-grade through premium finish levels</li>
-                <li>GC coordination and phased access</li>
-                <li>Final punch list walk and corrections</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-          <div class="service-img">
-            <img src="assets/images/service-5.png" alt="Painting service five project example" loading="lazy">
-          </div>
-        </div>
-
-        <!-- Service Six -->
-        <div class="service-section reverse" id="service-six">
-          <div class="service-img">
-            <img src="assets/images/service-6.png" alt="Painting service six project example" loading="lazy">
-          </div>
-          <div class="service-text">
-            <span class="eyebrow">Service Six</span>
-            <h2>Service Six</h2>
-            <p style="color:var(--color-text-muted);margin-top:1rem;line-height:1.8;">
-              Maintaining painted surfaces year after year is the most cost-effective way to protect your property and avoid expensive full repaints. Our maintenance program keeps every surface in excellent condition through scheduled inspections and targeted touch-ups.
-            </p>
-            <p style="color:var(--color-text-muted);line-height:1.8;margin-top:.75rem;">
-              Ideal for HOAs, property management companies, commercial facility managers, and investment property owners who want consistent quality without the hassle of managing multiple vendors.
-            </p>
-            <div class="service-includes">
-              <h4>What's Included</h4>
-              <ul>
-                <li>Annual or bi-annual property inspections</li>
-                <li>Priority scheduling for program clients</li>
-                <li>Discounted rates on all additional work</li>
-                <li>Detailed condition reports after each visit</li>
-              </ul>
-            </div>
-            <a href="quote.html" class="btn btn-primary" style="margin-top:1.75rem;">Get a Free Quote</a>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- WHY US COMPARISON -->
-    <section class="bg-alt" aria-labelledby="why-us-heading">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow">The [Your Company Name] Difference</span>
-          <h2 id="why-us-heading">4 Reasons Customers Choose Us</h2>
-        </div>
-        <div class="comparison-grid">
-          <div class="comparison-item">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <h4>Fully Licensed &amp; Insured</h4>
-            <p>Your property is protected. We carry all required licenses and full liability coverage on every job.</p>
-          </div>
-          <div class="comparison-item">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
-            <h4>Workmanship Guarantee</h4>
-            <p>We stand behind our work. If something isn't right, we come back and fix it — no debate, no charge.</p>
-          </div>
-          <div class="comparison-item">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            <h4>On-Time, Every Time</h4>
-            <p>We respect your schedule. Our crews arrive when promised and complete projects within the agreed timeframe.</p>
-          </div>
-          <div class="comparison-item">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
-            <h4>Premium Materials Only</h4>
-            <p>We use professional-grade paints and coatings — never cheap substitutes — because the difference shows after year two.</p>
-          </div>
+<!-- ================= SERVICE 02 — BATH REMODELS ================= -->
+<section id="heating-repair" class="section">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">02 / Bath</span>
+      <h2>Exterior Painting —<br>From Sleek To Spa.</h2>
+      <span class="meta">Primary &middot; Guest &middot; Powder</span>
+    </div>
+    <div class="grid-2">
+      <div style="order:2;"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-2.png" alt="Tile installer hand-laying primary bath shower wall"></div>
+      <div style="order:1;">
+        <p class="lead">From clean second-bath refreshes to spa-grade primary baths — we handle the tile, plumbing, vanities, glass, and lighting in-house, so the timeline doesn't slip waiting on a sub.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">What's Included</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Tile, plumbing &amp; vanity install</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Frameless glass, custom shower pans &amp; benches</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Heated floors, fans, lighting &amp; ventilation</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Smart fixtures &amp; touchless tech</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Schedule a Visit</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- CTA BAND -->
-    <section class="cta-band" aria-labelledby="cta-services-heading">
-      <div class="container" style="position:relative;z-index:1;">
-        <span class="eyebrow" style="color:var(--color-accent);">Ready to Get Started?</span>
-        <h2 id="cta-services-heading">Not Sure Which Service You Need? Let's Talk.</h2>
-        <div class="cta-divider"></div>
-        <p>We'll assess your property, answer your questions, and recommend the right approach — at no cost and no obligation.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:.875rem;justify-content:center;">
-          <a href="quote.html" class="btn btn-primary btn-lg">Request a Free Estimate</a>
-          <a href="contact.html" class="btn btn-white-outline btn-lg">Ask a Question</a>
+<!-- ================= SERVICE 03 — CABINETS ================= -->
+<section id="ac-install" class="section section-alt">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">03 / Cabinets</span>
+      <h2>Cabinet Refinishing —<br>Sized For Your Home.</h2>
+      <span class="meta">Custom &middot; Semi-Custom &middot; Refacing</span>
+    </div>
+    <div class="grid-2">
+      <div><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-3.png" alt="Custom cabinetry install in finished kitchen"></div>
+      <div>
+        <p class="lead">Right-sized systems, clean install, real warranties we stand behind. We don't push the biggest unit — we install the right one.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">What's Included</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Custom builds sized to your exact kitchen</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Wood-Mode, Brookhaven, Crystal &amp; semi-custom</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Hardware, soft-close, lighting &mdash; included</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> 10-year warranty, financing available</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Get a Free Quote</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-  </main>
+<!-- ================= SERVICE 04 — COUNTERTOPS ================= -->
+<section id="furnace-install" class="section">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">04 / Counters</span>
+      <h2>Drywall &amp; Patching &amp; Surfaces<br>Installation.</h2>
+      <span class="meta">Quartz &middot; Granite &middot; Marble</span>
+    </div>
+    <div class="grid-2">
+      <div style="order:2;"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-4.png" alt="Quartz countertop being templated and installed"></div>
+      <div style="order:1;">
+        <p class="lead">High-efficiency furnaces and heat pumps sized to your home — not what's on the truck this week. We pull the permits, run the gas, and clean up after.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">What's Included</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Quartz, granite, marble, butcher block, soapstone</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Templating, fabrication, install &mdash; handled in-house</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Honest material guidance &mdash; no markup games</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Lifetime workmanship guarantee</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Get a Free Quote</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="site-footer" role="contentinfo">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <div class="footer-logo-name">[Your Company Name]</div>
-          <div class="footer-logo-tagline">Painting · Prep · Color Consultation</div>
-          <p class="footer-desc">Delivering quality painting services to homeowners and businesses throughout [Service Region] since [Year Founded]. Locally owned, locally trusted.</p>
-          <p class="footer-license">Licensed &amp; Insured · License #[License #]</p>
+<!-- ================= SERVICE 05 — TILE ================= -->
+<section id="air-quality" class="section section-alt">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">05 / Tile</span>
+      <h2>Drywall &amp; Stone —<br>Cleaner, Quieter, Drier.</h2>
+      <span class="meta">Showers &middot; Backsplashes &middot; Floors</span>
+    </div>
+    <div class="grid-2">
+      <div><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-5.png" alt="Custom backsplash and floor tile work in primary bath"></div>
+      <div>
+        <p class="lead">Most homes have a duct problem, an allergy problem, or both. We measure, fix, and seal — no $99 "duct cleaning" gimmicks.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">What's Included</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Backsplashes, accent walls &amp; mosaics</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Shower walls, niches &amp; benches</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Heated floors, Schluter trim &amp; waterproofing</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Hand-laid by tile specialists, not subs</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Schedule an Audit</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
         </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <nav class="footer-links" aria-label="Footer navigation">
-            <a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="service-areas.html">Service Areas</a><a href="gallery.html">Gallery</a><a href="testimonials.html">Reviews</a><a href="faq.html">FAQ</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a><a href="quote.html">Free Quote</a>
-          </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SERVICE 06 — DESIGN ================= -->
+<section id="maintenance" class="section">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">06 / Design</span>
+      <h2>Color Consultation —<br>Set It &amp; Forget It.</h2>
+      <span class="meta">3D Visualization &middot; Material Selection</span>
+    </div>
+    <div class="grid-2">
+      <div style="order:2;"><img src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/images/service-6.png" alt="Technician performing seasonal Remodeling tune-up"></div>
+      <div style="order:1;">
+        <p class="lead">Most breakdowns aren't surprises — they're missed maintenance. Two visits a year, priority dispatch, no overtime fees, cancel anytime.</p>
+        <strong style="display:block;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft);margin-top:1.5rem;margin-bottom:0.5rem;">Member Benefits</strong>
+        <ul class="feature-list">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> 3D renderings &amp; layout drawings</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> On-site material &amp; finish selection</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> Fixed-price quote within 5 business days</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg> No-obligation consult — only commit if you love it</li>
+        </ul>
+        <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.75rem;">
+          <a href="/quote" class="btn btn-primary">Join The Plan</a>
+          <a href="tel:[Phone Number]" class="btn btn-secondary">Call [Phone Number]</a>
         </div>
-        <div class="footer-col">
-          <h4>Our Services</h4>
-          <nav class="footer-links" aria-label="Services navigation">
-            <a href="#service-one">Service One</a><a href="#service-two">Service Two</a><a href="#service-three">Service Three</a><a href="#service-four">Service Four</a><a href="#service-five">Service Five</a><a href="#service-six">Service Six</a>
-          </nav>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Us</h4>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg><a href="tel:[Phone Number]">[Phone Number]</a></div>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:[Email]">[Email]</a></div>
-          <div class="footer-contact-item"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg><span>[Street Address], [City, State ZIP]</span></div>
-          <p class="footer-hours">Mon–Sat 7am–6pm · Sun by appointment</p>
-        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY US ================= -->
+<section class="section">
+  <div class="container">
+    <div class="sec-head">
+      <span class="idx">07 / Why Us</span>
+      <h2>Work That<br>Holds Up.</h2>
+      <span class="meta">No Calls Twice</span>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4"/></svg></div>
+        <h3>Flat-Rate Pricing</h3>
+        <p style="color:var(--ink-soft);">Know the number before the work starts. The invoice matches the quote &mdash; that's the deal.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+        <h3>On-Time Completion</h3>
+        <p style="color:var(--ink-soft);">Most visits booked by noon are on the schedule that afternoon. 24/7 for emergencies.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Workmanship Guarantee</h3>
+        <p style="color:var(--ink-soft);">If something we did isn't right, one call brings us back. Lifetime workmanship guarantee on installs.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg></div>
+        <h3>Vetted Technicians</h3>
+        <p style="color:var(--ink-soft);">Background-checked, drug-tested, NKBA-trained, and uniformed. Never sub-contracted.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2 4 4 8-8 4 4"/></svg></div>
+        <h3>Zero Pressure</h3>
+        <p style="color:var(--ink-soft);">No commission-driven sales scripts. We tell you what we'd do in our own home, then leave.</p>
+      </div>
+      <div class="card">
+        <div class="icon-circle"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3>Real People Answer</h3>
+        <p style="color:var(--ink-soft);">No phone trees, no offshore call centers. Local dispatchers who know the techs by name.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="container">
+    <div>
+      <span class="eyebrow" style="color:var(--orange);">08 / Get Started</span>
+      <h2>Need It Fixed Today?</h2>
+      <p>Most same-day visits are booked by noon. Tell us what's going on and we'll lock in a window.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:0.875rem;">
+      <a href="tel:[Phone Number]" class="btn btn-primary btn-lg">Call [Phone Number]</a>
+      <a href="/quote" class="btn btn-outline-white btn-lg">Request a Visit</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo-name">[Your Company Name]</div>
+        <div class="logo-tag">Interior &amp; Exterior Painting</div>
+        <p style="margin-top:1rem;color:rgba(255,255,255,0.7);max-width:36ch;">Family-owned remodeling company serving [Service Region] since [Year Founded]. Honest work, fair pricing, and a guarantee behind every job.</p>
+        <p style="font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-top:1rem;">Lic #[License #] &middot; Insured &middot; Bonded</p>
+      </div>
+      <div>
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/service-areas">Service Areas</a></li>
+          <li><a href="/gallery">Gallery</a></li>
+          <li><a href="/testimonials">Reviews</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="/services#interior">Interior Remodels</a></li>
+          <li><a href="/services#exterior">Exterior Painting</a></li>
+          <li><a href="/services#cabinet-paint">Cabinet Refinishing</a></li>
+          <li><a href="/services#drywall">Drywall &amp; Patching &amp; Surfaces</a></li>
+          <li><a href="/services#trim">Drywall &amp; Stone</a></li>
+          <li><a href="/services#color">Color Consultation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reach Us</h4>
+        <ul>
+          <li><a href="tel:[Phone Number]" style="font-family:var(--font-heading);font-weight:700;color:#fff;font-size:1.125rem;">[Phone Number]</a></li>
+          <li><a href="mailto:[Email]">[Email]</a></li>
+          <li>[Street Address]<br>[City, State ZIP]</li>
+          <li style="margin-top:0.75rem;font-family:var(--font-mono);font-size:0.6875rem;letter-spacing:0.08em;text-transform:uppercase;color:rgba(255,255,255,0.6);">Mon&ndash;Fri 7a&ndash;7p &middot; Sat 8a&ndash;4p<br>15-Yr Workmanship Dispatch</li>
+        </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="container">
-        <div class="footer-bottom-inner">
-          <div class="footer-social" aria-label="Social media links">
-            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
-            <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-            <a href="#" aria-label="Google Business"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></a>
-          </div>
-          <p class="footer-legal">&copy; [Year] [Your Company Name]. All rights reserved. &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="terms.html">Terms of Use</a></p>
-        </div>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Google"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 11h-10v2.5h5.7c-.5 2.8-2.8 4.5-5.7 4.5-3.4 0-6.2-2.8-6.2-6.2s2.8-6.2 6.2-6.2c1.5 0 2.9.6 4 1.5l1.9-1.9C16 3.6 14.1 3 12 3 7 3 3 7 3 12s4 9 9 9c5.2 0 8.7-3.6 8.7-8.7 0-.4 0-.9-.1-1.3z"/></svg></a>
       </div>
+      <div>&copy; <span data-year>2026</span> [Your Company Name] &middot; <a href="/privacy">Privacy</a> &middot; <a href="/terms">Terms</a></div>
     </div>
-  </footer>
+  </div>
+</footer>
 
-  <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/annasfilig-max/painters-website@2e5de6e/assets/js/main.js?v=22" defer></script>
 </body>
 </html>
